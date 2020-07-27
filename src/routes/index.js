@@ -4,9 +4,8 @@ router.get('/', (req, res) => {
     res.render('home');
 });
 
-router.get('/contacto', (req, res) => {
+router.get('/contact', (req, res) => {
     res.render('contacto');
 });
-
 
 module.exports = router;
